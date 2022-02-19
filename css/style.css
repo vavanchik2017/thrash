@@ -1,0 +1,185 @@
+* { font-size: 12px; }
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display:flex; 
+    align-items: center;
+    justify-content:center; 
+    padding-left: 500px;
+}
+
+@font-face {
+    font-family: Brush Script Std;
+    src: url(/font-styles/BrushScriptStd.otf);
+    font-family: Lato-Medium;
+    src: url(../font-styles/Lato-Medium.ttf);
+    font-family: "Lato-Regular";
+    src: url(../font-styles/Lato-Regular.ttf);
+}
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    height: 70px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+.authorisation {
+    /* margin-left: 300px; */
+    border-radius: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.headerText {
+    font-size: 24px;
+    margin-left: 20px;
+    font-family: Lato-Medium;
+}
+
+.nav-bar {
+    display: flex;
+    padding-left: 128px;
+
+}
+
+.nav-bar-elements {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar-element {
+    margin-left: 50px;
+}
+
+.bar-elem {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.active-nav-bar-element {
+    text-decoration: underline;
+    text-decoration-color: coral;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    font-size: 18px;
+    margin-top: 12px;
+    color: blue;
+}
+
+.blue-line-content{
+    display: flex;
+    justify-content: center;
+    padding-right: 270px;
+    padding-left: 50px;
+    margin-top: 15px;
+}
+
+.blue-line {
+    margin-top: -80px;
+    width: 100%;
+    height: 15px;
+    background-color: cornflowerblue;
+}
+
+.authorisation {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.auth-title {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.password-container {
+    padding-top: 10px;
+}
+
+.exit-login-title {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.exit-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.exit-login-button {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.exit-login-button-container {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.register-butt {
+    margin-top: 10px;
+}
+
+.register-title {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* CALENDAR */
+
+.calendar {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 270px;
+}
+
+#add_event_button {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* REGISTER */
+
+.register-content {
+    margin-bottom: 15px;
+}
+
+/* ERRORLOG */
+
+.errorlog-content {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px
+}
